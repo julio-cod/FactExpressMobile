@@ -1,0 +1,17 @@
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\bin\Debug\netstandard2.0\FactExpressMobile.deps.json
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\bin\Debug\netstandard2.0\FactExpressMobile.dll
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\bin\Debug\netstandard2.0\ref\FactExpressMobile.dll
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\bin\Debug\netstandard2.0\FactExpressMobile.pdb
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\FactExpressMobile.AssemblyInfoInputs.cache
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\FactExpressMobile.AssemblyInfo.cs
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\FactExpressMobile.dll
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\ref\FactExpressMobile.dll
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\FactExpressMobile.pdb
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\FactExpressMobile.csproj.CoreCompileInputs.cache
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\DetailPage.xaml.g.cs
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\DetallePedidosPage.xaml.g.cs
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\ListaPedidosAsignadosPage.xaml.g.cs
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\MasterPage.xaml.g.cs

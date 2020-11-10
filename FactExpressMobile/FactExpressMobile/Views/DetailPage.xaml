@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FactExpressMobile.Views.DetailPage"
+             Title="FactExpressMobile">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Frame>
+                    <Image Source="imgPedidoFondo.png"  Aspect = "AspectFill" />
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" >
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <StackLayout WidthRequest="200" HeightRequest="200" >
+                        <Frame>
+                            <Image Source="imgPedidoFondo.png"   Aspect="AspectFill"/>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout WidthRequest="200" HeightRequest="200">
+                        <Frame >
+                            <Image Source="imgPedidoFondo.png" Aspect="AspectFill"  />
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
+                    <StackLayout WidthRequest="200" HeightRequest="200">
+                        <Frame>
+                            <Image Source="imgPedidoFondo.png"  Aspect="AspectFill"/>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout WidthRequest="200" HeightRequest="200">
+                        <Frame>
+                            <Image Source="imgPedidoFondo.png"  Aspect="AspectFill"/>
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
