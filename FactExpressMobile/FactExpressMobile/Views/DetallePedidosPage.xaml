@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FactExpressMobile.Views.DetallePedidosPage"
+             Title="Detalle del Pedido">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Frame Grid.Row="1" Padding="0,0,0,-1" HasShadow="False" HorizontalOptions="FillAndExpand" >
+                        <StackLayout Grid.Row="0" Grid.Column="1" Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal">
+                            <StackLayout>
+                                    <Button x:Name="btnFacturar" Text="Facturar Pedido" BackgroundColor="CadetBlue" Clicked="btnFacturar_Clicked" />
+                            </StackLayout>
+                                <StackLayout HorizontalOptions="EndAndExpand" Margin="5">
+                                    <Label x:Name="lblCodPedido" FontSize="Medium" TextColor="Black" />
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout>
+                                <Picker x:Name="pkTipoPago" Title="Seleccione Tipo Pago" SelectedIndexChanged="pkTipoPago_SelectedIndexChanged"  />
+                            </StackLayout>
+                            <StackLayout Orientation="Vertical">
+                                <Label x:Name="lblCliente" FontSize="Medium" HorizontalOptions="Start" TextColor="Black"/>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label x:Name="lblTipoPago" FontSize="Medium" HorizontalOptions="Start" Margin="5" />
+                                    <Label x:Name="lblTotal" FontSize="Medium" HorizontalOptions="EndAndExpand" Margin="5" />
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout>
+                                <Label x:Name="lblLista" Text="Lista de Productos" FontSize="Medium" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+                            </StackLayout>
+                        </StackLayout>
+                        
+                    </Frame>
+
+                    <BoxView Grid.Row="2" BackgroundColor="#DDD" HeightRequest="1" />
+
+                    <CollectionView x:Name="CVListaDetallePedidos" Grid.Row="3" ItemsSource="{Binding GetsList}" SelectionMode="Single" SelectionChanged="CVListaDetallePedidos_SelectionChanged" >
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Padding="15,10,15,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+
+                                    <StackLayout Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+                                        <Label FontSize="Medium" Text="{Binding Descripcion}" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                                        <Label FontSize="Medium" Text="Cantidad: " />
+                                        <Label FontSize="Medium" Text="{Binding Cantidad}" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" Grid.Row="3" Grid.Column="1" >
+                                        <Label FontSize="Medium" Text="Precio: " />
+                                        <Label FontSize="Medium" Text="{Binding Precio}" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="End" Grid.Row="3" Grid.Column="1">
+                                        <Label FontSize="Small" Text="Descuento: " />
+                                        <Label FontSize="Small" LineBreakMode="TailTruncation" Text="{Binding Descuento}" />
+                                    </StackLayout>
+
+                                    <BoxView Grid.Row="4" Grid.ColumnSpan="2" Margin="-10,10,-10,0" BackgroundColor="#DDD" HeightRequest="1" />
+
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FactExpressMobile.Views.ListaPedidosAsignadosPage"
+             Title="Pedidos Asignados">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Frame Grid.Row="1" Padding="0,0,0,-1" BackgroundColor="#F1F1F1" CornerRadius="20"
+                     HasShadow="False" HorizontalOptions="FillAndExpand" IsClippedToBounds="True">
+                        <StackLayout>
+                            <SearchBar HorizontalOptions="FillAndExpand" Placeholder="Digite Cliente" />
+                            <Button x:Name="btnActualizar" Text="Actualizar Lista" FontSize="Medium" BackgroundColor="CadetBlue" Clicked="btnActualizar_Clicked" />
+                        </StackLayout>
+                        
+                    </Frame>
+
+                    <BoxView Grid.Row="2" BackgroundColor="#DDD" HeightRequest="1" />
+
+                    <CollectionView x:Name="CVListaPedidosAsignados" Grid.Row="3" ItemsSource="{Binding GetsList}" SelectionMode="Single" SelectionChanged="CVListaPedidosAsignados_SelectionChanged" >
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Padding="15,10,15,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                   
+                                    <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
+                                        <Label FontSize="Medium" Text="Cod-Pedido: " />
+                                        <Label FontSize="Medium" Text="{Binding CodPedido}" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" Grid.Row="0" Grid.Column="1">
+                                        <DatePicker FontSize="Small" Date="{Binding FechaEntrega}" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="1">
+                                        <Label LineBreakMode="TailTruncation" FontSize="Small" Text="Cliente: " />
+                                        <Label FontSize="Small" LineBreakMode="TailTruncation" Text="{Binding NombreCliente}" />
+                                    </StackLayout>
+
+                                    <Label Grid.Row="2" Grid.Column="1" FontSize="Small" LineBreakMode="TailTruncation" Text="{Binding LugarEntrega}" />
+
+                                    <StackLayout Grid.Row="3" Grid.Column="1" Orientation="Horizontal">
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                        <Label FontSize="Medium" Text="Total: " />
+                                        <Label FontSize="Medium" Text="{Binding Total}" />
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                    <BoxView Grid.Row="4" Grid.ColumnSpan="2" Margin="-10,10,-10,0" BackgroundColor="#DDD" HeightRequest="1" />
+
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
