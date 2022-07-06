@@ -58,3 +58,6 @@ C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.iO
 C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.iOS\obj\iPhone\Debug\FactExpressMobile.iOS.exe
 C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.iOS\obj\iPhone\Debug\FactExpressMobile.iOS.pdb
 C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.iOS\bin\iPhone\Debug\Syncfusion.Licensing.dll
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.iOS\bin\iPhone\Debug\Syncfusion.Compression.Portable.dll
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.iOS\bin\iPhone\Debug\Syncfusion.Pdf.Portable.dll

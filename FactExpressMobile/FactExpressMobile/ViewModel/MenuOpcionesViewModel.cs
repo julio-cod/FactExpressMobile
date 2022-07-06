@@ -15,24 +15,24 @@ namespace FactExpressMobile.ViewModel
             Opciones = new ObservableCollection<OpcionesModel>
             {
 
-                new OpcionesModel
+            new OpcionesModel
             {
                 IdOpcion=1,
-                Imagen = "imgPedidosAsignados.jpg",
-                nombreOpcion = "Pedido Asignados"
+                Imagen = "imgFacturarPedido.png",
+                nombreOpcion = "Facturar Pedidos"
 
             },
             new OpcionesModel
             {
                 IdOpcion=2,
-                Imagen = "imgPedidosEntregados.jpg",
+                Imagen = "imgPedidosEntregados.png",
                 nombreOpcion = "Pedidos Entregados"
 
             },
             new OpcionesModel
             {
                 IdOpcion=3,
-                Imagen = "imgCrearPedidos.jpg",
+                Imagen = "imgCrearPedidos.ico",
                 nombreOpcion = "Crear Pedidos"
 
             },
@@ -40,7 +40,7 @@ namespace FactExpressMobile.ViewModel
             new OpcionesModel
             {
                 IdOpcion=4,
-                Imagen = "imgGestionarPedidos.jpg",
+                Imagen = "imgGestionarPedidos.png",
                 nombreOpcion = "Gestionar Pedidos"
 
             }

@@ -9,10 +9,15 @@ C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\ob
 C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\FactExpressMobile.dll
 C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\ref\FactExpressMobile.dll
 C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\FactExpressMobile.pdb
-C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\FactExpressMobile.csproj.CoreCompileInputs.cache
-C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\DetailPage.xaml.g.cs
 C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\DetallePedidosPage.xaml.g.cs
 C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\ListaPedidosAsignadosPage.xaml.g.cs
 C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\MasterPage.xaml.g.cs
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\FacturacionPage.xaml.g.cs
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\FacturarPedidoPage.xaml.g.cs
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\GestionarPedidosPage.xaml.g.cs
 C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\FactExpressMobile.csprojAssemblyReference.cache
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\PedidosEntregadoPage.xaml.g.cs
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\Views\DetallePedidosEntregadoPage.xaml.g.cs
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\FactExpressMobile.csproj.CoreCompileInputs.cache
+C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile\obj\Debug\netstandard2.0\XamlC.stamp

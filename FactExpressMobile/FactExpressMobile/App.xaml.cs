@@ -10,6 +10,9 @@ namespace FactExpressMobile
 
         public App()
         {
+            //Register Syncfusion license
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MzU3MzE4QDMxMzgyZTMzMmUzMGx3RlhRRXZKNW15cE9SOXNIVlpyRk0rOEIvai9HZTBOZVdJdWhuc1NHU289");
+
             InitializeComponent();
 
             MainPage = new MainPage();

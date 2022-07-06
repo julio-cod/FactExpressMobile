@@ -17,23 +17,23 @@ namespace FactExpressMobile.Views
         public ListaPedidosAsignadosPage()
         {
             InitializeComponent();
-            BindingContext = new PedidoAsignadoViewModel();
+            BindingContext = new PedidoViewModel();
         }
 
         private async void CVListaPedidosAsignados_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (e.CurrentSelection[0] is PedidoAsignadoModel pedidoAsignadoModel)
+            if (e.CurrentSelection[0] is PedidoModel pedidoAsignadoModel)
             {
 
-                await Navigation.PushAsync(new DetallePedidosPage(pedidoAsignadoModel.CodPedido, pedidoAsignadoModel.Total, pedidoAsignadoModel.NombreCliente));
-                BindingContext = new PedidoAsignadoViewModel();
+                await Navigation.PushAsync(new DetallePedidosPage(pedidoAsignadoModel.CodigoPedido, pedidoAsignadoModel.Total, pedidoAsignadoModel.NombreCliente));
+                BindingContext = new PedidoViewModel();
 
             }
         }
 
         private void btnActualizar_Clicked(object sender, EventArgs e)
         {
-            BindingContext = new PedidoAsignadoViewModel();
+            BindingContext = new PedidoViewModel();
         }
     }
 }

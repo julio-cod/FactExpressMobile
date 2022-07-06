@@ -18,6 +18,7 @@ namespace FactExpressMobile.Views
         {
             InitializeComponent();
             BindingContext = new MenuOpcionesViewModel();
+          
         }
 
         private async void CVListaMenuOpciones_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -27,16 +28,32 @@ namespace FactExpressMobile.Views
             {
                 if (opcionesModel.IdOpcion == 1)
                 {
-                    await App.MasterPageApp.Detail.Navigation.PushAsync(new ListaPedidosAsignadosPage());
+                    await App.MasterPageApp.Detail.Navigation.PushAsync(new FacturarPedidoPage());
+                    BindingContext = new MenuOpcionesViewModel();
+
+                }
+
+                if (opcionesModel.IdOpcion == 2)
+                {
+                    await App.MasterPageApp.Detail.Navigation.PushAsync(new PedidosEntregadoPage());
+                    BindingContext = new MenuOpcionesViewModel();
+
+                }
+
+                if (opcionesModel.IdOpcion == 4)
+                {
+                    await App.MasterPageApp.Detail.Navigation.PushAsync(new GestionarPedidosPage());
                     BindingContext = new MenuOpcionesViewModel();
 
                 }
 
 
                 BindingContext = new MenuOpcionesViewModel();
-
+                
             }
 
         }
+
+        
     }
 }

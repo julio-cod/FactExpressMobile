@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" p2:versionCode="1" p2:versionName="1.0" package="com.companyname.factexpressmobile" android:versionCode="1" android:versionName="1.0" xmlns:p2="https://schemas.android.com/apk/res/android">
-  <!--suppress UsesMinSdkAttributes-->
-  <uses-sdk p2:minSdkVersion="21" p2:targetSdkVersion="28" android:minSdkVersion="16" />
-  <uses-permission android:name="android.permission.INTERNET" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.factexpressmobile" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="28" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <uses-permission p2:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application p2:label="FactExpressMobile.Android" p2:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:label="com.companyname.factexpressmobile" android:icon="@mipmap/icon" android:debuggable="true">
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="FactExpressMobile.Android" android:theme="@style/MainTheme" android:networkSecurityConfig="@xml/network_security_config" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+    <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.companyname.factexpressmobile.provider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths" />
+    </provider>
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="FactExpressMobile" android:theme="@style/MainTheme" android:name="crc64f38cc7efcdc8fd0e.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

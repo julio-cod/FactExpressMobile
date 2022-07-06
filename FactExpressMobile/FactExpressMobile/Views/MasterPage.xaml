@@ -12,7 +12,7 @@
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
-
+                
                 <BoxView Grid.Row="2" BackgroundColor="#DDD" HeightRequest="1" />
 
                 <CollectionView x:Name="CVListaMenuOpciones" Grid.Row="3" ItemsSource="{Binding Opciones}" SelectionMode="Single" SelectionChanged="CVListaMenuOpciones_SelectionChanged"  >

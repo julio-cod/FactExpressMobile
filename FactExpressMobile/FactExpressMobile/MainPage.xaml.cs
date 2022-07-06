@@ -12,6 +12,7 @@ namespace FactExpressMobile
     public partial class MainPage : MasterDetailPage
     {
         public static int codUsuario = 1;
+        public static string nombreUsuario = "julio";
         public MainPage()
         {
             InitializeComponent();

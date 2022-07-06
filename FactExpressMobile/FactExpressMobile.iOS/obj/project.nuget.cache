@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "AN4FPIw4JfqKhAr2rywbOb+TxxAjmEQ3XJTiH1sWXDE9S6eD2d9YCueDQ7JSBkDmav9Tl4j7i90y43IQS8KDbw==",
+  "dgSpecHash": "mOfEnUva+VSXLtULEi2C7M8Lzznocg4/C2KSOxCaMVmDL7DCyMy+N9IHgEl46tX0uxDgKG22dPBRPRXkl+ravA==",
   "success": true,
   "projectFilePath": "C:\\Proyecto FactExpress\\FactExpressMobile\\FactExpressMobile\\FactExpressMobile.iOS\\FactExpressMobile.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\syncfusion.licensing\\18.3.0.51\\syncfusion.licensing.18.3.0.51.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\syncfusion.xamarin.compression\\18.3.0.51\\syncfusion.xamarin.compression.18.3.0.51.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\syncfusion.xamarin.pdf\\18.3.0.51\\syncfusion.xamarin.pdf.18.3.0.51.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],

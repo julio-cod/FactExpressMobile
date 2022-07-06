@@ -19,16 +19,21 @@ android.support.v7.widget.Toolbar;C:\Proyecto FactExpress\FactExpressMobile\Fact
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
+base-config;obj\Debug\90\res\xml\network_security_config.xml
 cache-path;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+certificates;obj\Debug\90\res\xml\network_security_config.xml
 color;obj\Debug\90\res\values\colors.xml
 external-cache-path;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;obj\Debug\90\res\xml\provider_paths.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
 item;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 LinearLayout;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
+network-security-config;obj\Debug\90\res\xml\network_security_config.xml
 paths;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;obj\Debug\90\res\xml\provider_paths.xml
 resources;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\styles.xml
@@ -42,4 +47,5 @@ translate;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpres
 translate;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
 translate;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
 translate;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
+trust-anchors;obj\Debug\90\res\xml\network_security_config.xml
 xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Proyecto FactExpress\FactExpressMobile\FactExpressMobile\FactExpressMobile.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml

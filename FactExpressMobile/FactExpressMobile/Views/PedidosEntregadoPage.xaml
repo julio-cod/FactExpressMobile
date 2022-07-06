@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FactExpressMobile.Views.PedidosEntregadoPage"
+             Title="Pedidos Entregados">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <StackLayout Orientation="Horizontal">
+                        <Label FontSize="Medium" Text="Tipo Pago: " />
+                        <Picker x:Name="pkTipoPago" Title="Seleccione Tipo Pago" HorizontalOptions="FillAndExpand"  SelectedIndexChanged="pkTipoPago_SelectedIndexChanged" />
+                    </StackLayout>
+                    <Frame Grid.Row="1" Padding="0,0,0,-1" BackgroundColor="#F1F1F1" CornerRadius="20"
+                     HasShadow="False" HorizontalOptions="FillAndExpand" IsClippedToBounds="True">
+                        <StackLayout>
+                            <SearchBar x:Name="txtBuscarPorCliente" HorizontalOptions="FillAndExpand" Placeholder="Digite Cliente" TextChanged="txtBuscarPorCliente_TextChanged" />
+                            <Button x:Name="btnActualizar" Text="Actualizar Lista" FontSize="Medium" BackgroundColor="CadetBlue" Clicked="btnActualizar_Clicked" />
+                        </StackLayout>
+
+                    </Frame>
+
+                    <BoxView Grid.Row="2" BackgroundColor="#DDD" HeightRequest="1" />
+
+                    <CollectionView x:Name="CVListaPedidos" Grid.Row="3" ItemsSource="{Binding GetsList}" SelectionMode="Single" SelectionChanged="CVListaPedidos_SelectionChanged" >
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Padding="15,10,15,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+
+                                    <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
+                                        <Label FontSize="Medium" Text="Cod-Pedido: " />
+                                        <Label FontSize="Medium" Text="{Binding CodigoPedido}" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" Grid.Row="0" Grid.Column="1">
+                                        <DatePicker FontSize="Small" Date="{Binding Fecha}" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="1">
+                                        <Label LineBreakMode="TailTruncation" FontSize="Small" Text="Cliente: " />
+                                        <Label FontSize="Small" LineBreakMode="TailTruncation" Text="{Binding NombreCliente}" />
+                                    </StackLayout>
+                                    
+                                    <StackLayout Grid.Row="3" Grid.Column="1" Orientation="Horizontal">
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                                            <Label Grid.Row="2" Grid.Column="1" FontSize="Small" Text="Tipo de Pago: " />
+                                            <Label Grid.Row="2" Grid.Column="1" FontSize="Small" LineBreakMode="TailTruncation" Text="{Binding TipoPago}" />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                            <Label FontSize="Medium" Text="Total: " />
+                                            <Label FontSize="Medium" Text="{Binding Total}" />
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                    <BoxView Grid.Row="4" Grid.ColumnSpan="2" Margin="-10,10,-10,0" BackgroundColor="#DDD" HeightRequest="1" />
+
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
